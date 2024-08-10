@@ -1,0 +1,273 @@
+.chef-section {
+    background-color: rgba(249, 249, 239, 255);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.chef-text {
+    color: #2b2b2b;
+}
+
+.chef-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chef-text p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn-read-more {
+    background-color: rgba(186, 141, 108, 255);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: rgba(241, 230, 210, 255);
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+    color: rgba(38, 47, 60, 255);
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(227, 138, 108, 255);
+}
+
+h5 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(219, 90, 64, 254);
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.testimonial-card {
+    background-color: rgba(249, 249, 239, 255);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-content h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-content p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.testimonial-rating {
+    color: #ff6f3c;
+}
+
+.testimonial-date {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.jhon {
+    margin: 0 auto;
+}
+
+.leaf {
+    margin-left: 15%;
+}
+
+#leaf {
+    width: 3%;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#email {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgba(209, 194, 165, 255);
+}
+
+#pwd {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgba(209, 194, 165, 255);
+}
+
+#comment {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 25px;
+    background-color: rgba(209, 194, 165, 255);
+}
+
+#send {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+footer {
+    background-color: #f29300;
+    /* Your orange background color */
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section form {
+    margin-bottom: 10px;
+}
+
+.footer-section input[type="email"] {
+    padding: 5px;
+    width: 80%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    /* Change this to your desired icon color */
+}
+
+#fb {
+    color: white;
+}
+
+#insta {
+    color: white;
+}
+
+#yt {
+    color: white;
+}
+
+#icons {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#about {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+#what {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+#Sign-up {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+.text-reset {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white !important;
+}
+
+.form-control {
+    background-color: #f29300;
+}
+
+@media screen and (max-width: 990px) {
+
+
+    .chef-section {
+        margin: auto;
+    }
+
+
+}
